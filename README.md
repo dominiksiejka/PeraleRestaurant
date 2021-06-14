@@ -2,7 +2,7 @@
 
 ## Demo
 
-[**click live demo of the project**](https://dominiksiejka.github.io/YouTubeApp/)
+[**click live demo of the project**](https://dominiksiejka.github.io/PeraleRestaurant)
 
 ![PeraleRestaurant preview](./src/assets/youtube.jpg)
 
@@ -37,7 +37,7 @@ There is a search bar at the top of the YouTubeApp. By default the search is set
 with BASH
 
 # clone the remote repo to your local one
-$ git clone https://github.com/dominiksiejka/YouTubeApp.git
+$ git clone https://github.com/dominiksiejka/PeraleRestaurant.git
 
 # open the index.html file or use your code editor to open it with live server
 
@@ -50,4 +50,4 @@ $ git clone https://github.com/dominiksiejka/YouTubeApp.git
 
 ## License
 
-- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/YouTubeApp)
+- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/PeraleRestaurant)
