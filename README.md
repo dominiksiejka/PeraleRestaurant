@@ -27,9 +27,9 @@ There is a search bar at the top of the YouTubeApp. By default the search is set
 ## Built with
 
 - React
-- CSS
+- React Hooks
+- React Router
 - Axios
-- Google APIs
 
 ## Setup
 
