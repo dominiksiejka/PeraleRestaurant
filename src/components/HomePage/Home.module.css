@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap");
+.HomeContainer {
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+.HomeArticle {
+  width: 90%;
+  background-color: #e1e5ea;
+  display: flex;
+  justify-content: center;
+}
+.main-image {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-image img {
+  width: 120%;
+  height: 110vh;
+  object-fit: cover;
+}
+h1 {
+  letter-spacing: 1.2px;
+  font-size: 2.2rem;
+  text-shadow: 0 0 4px black;
+  padding: 0 10px;
+}
+.summary {
+  text-align: center;
+  max-width: 45rem;
+  width: 100%;
+  margin: 0 auto;
+
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+
+  padding: 1rem;
+  text-shadow: 0 0 5px black;
+}
+
+.summary h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  letter-spacing: 1.2px;
+}
+.summary p {
+  margin-top: 15px;
+}
+.HomeHistory {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 90%;
+}
+
+.homeImages {
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+.homeImages img {
+  height: 100%;
+  margin: 10px 0;
+}
+
+@media (min-width: 500px) {
+  .homeImages {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+  }
+  .homeImages img:nth-of-type(2) {
+    transform: translateY(20%);
+  }
+  .homeImages img {
+    margin-right: 5px;
+  }
+  .homeRestaurant {
+    margin-top: 20px;
+  }
+}
+.HomeHistory h2 {
+  font-size: 2.2rem;
+  letter-spacing: 1.2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeRestaurant {
+  width: 100%;
+  padding: 10px 20px;
+}
+@media (min-width: 600px) {
+  .homeRestaurant {
+    width: 90%;
+  }
+}
+@media (min-width: 1000px) {
+  .HomeHistory {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    min-height: 500px;
+    width: 90%;
+    flex-direction: row;
+  }
+  .homeRestaurant {
+    width: 40%;
+  }
+}
+.homeRestaurant p {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: rgb(65, 65, 65);
+  text-align: justify;
+}
+.HomeHistory h2 span {
+  color: #dda4b0;
+}
+.Services {
+  margin: 100px 0;
+  width: 100%;
+  background-color: #e1e5ea;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Services h2 {
+  width: 100%;
+  letter-spacing: 1.2px;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.Services h2::before {
+  content: "Services";
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  display: block;
+  position: absolute;
+  top: -30px;
+  z-index: -1;
+  left: 50%;
+
+  transform: translateX(-50%);
+  color: #dda4b0;
+}
+
+.listOfServices {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.listOfServices div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 5px;
+  width: 70%;
+  max-width: 300px;
+}
+@media (min-width: 600px) {
+  .listOfServices div {
+    width: 40%;
+  }
+}
+@media (min-width: 800px) {
+  .listOfServices div {
+    width: 25%;
+  }
+}
+.listOfServices div h4 {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+.listOfServices div p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: grey;
+  line-height: 1.5;
+}

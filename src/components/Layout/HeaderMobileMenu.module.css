@@ -1,0 +1,38 @@
+.BurgerMenu {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  padding: 0 10px;
+  cursor: pointer;
+  z-index: 999;
+}
+.BurgerMenu span {
+  background: #fff;
+  border-radius: 10px;
+  height: 5px;
+  margin: 3px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+.BurgerMenu span:nth-of-type(1) {
+  width: 50%;
+}
+.BurgerMenu span:nth-of-type(2) {
+  width: 100%;
+}
+
+.BurgerMenu span:nth-of-type(3) {
+  width: 75%;
+}
+.BurgerMenu span:nth-of-type(1).Active {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+}
+.BurgerMenu span:nth-of-type(2).Active {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+.BurgerMenu span:nth-of-type(3).Active {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(18px, -5px) rotatez(45deg);
+}

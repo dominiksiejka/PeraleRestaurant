@@ -1,0 +1,69 @@
+.staffContainer {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: white;
+  width: 100%;
+  min-height: 600px;
+  padding: 50px 20px;
+
+  max-width: 1450px;
+  flex-wrap: wrap;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.singlePerson {
+  margin: 10px 5px;
+}
+.singlePerson img {
+  width: 220px;
+}
+.title {
+  background-color: white;
+  text-align: center;
+  text-shadow: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+}
+.title::before {
+  content: "Masters";
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  display: block;
+  position: absolute;
+
+  z-index: -1;
+  top: -30%;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  color: #dda4b0;
+}
+@media (min-width: 400px) {
+  .title::before {
+    top: -60%;
+  }
+}
+.singlePerson p:nth-of-type(1) {
+  color: rgb(65, 65, 65);
+  letter-spacing: 1.2px;
+}
+.singlePerson i {
+  color: #dda4b0;
+  text-shadow: 2px 0 2px rgba(0, 0, 0, 0.5);
+}
+.singlePerson button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.3rem;
+  margin: 10px 5px;
+  cursor: pointer;
+
+  width: 30px;
+  height: 30px;
+}

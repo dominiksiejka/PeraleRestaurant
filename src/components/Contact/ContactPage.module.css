@@ -1,0 +1,113 @@
+.ContactPage {
+  width: 100%;
+  background-image: url("../../assets/contact.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.ContactContent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 650px;
+}
+@media (min-width: 600px) {
+  .ContactContent {
+    width: 80%;
+  }
+}
+@media (min-width: 800px) {
+  .ContactContent {
+    width: 60%;
+  }
+}
+.ContactPage img {
+  width: 100%;
+  min-height: 100%;
+}
+.ContactContent h1 {
+  text-shadow: none;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.ContactContent h1::before {
+  content: "Book a table";
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  top: -60%;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+  color: #dda4b0;
+}
+.ContactContent form {
+  display: flex;
+
+  height: 90%;
+  font-family: "Montserrat", sans-serif;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ContactContent form div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ContactContent form div label {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.ContactContent input,
+.ContactContent select {
+  margin-top: 5px;
+  border: none;
+  border: 1px solid rgb(224, 224, 224);
+  height: 35px;
+
+  padding: 6px 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+.ContactContent input:focus,
+.ContactContent select:focus {
+  border-color: black;
+  outline: none;
+}
+.ContactContent input::placeholder {
+  letter-spacing: none;
+}
+.ContactContent form button[type="submit"] {
+  width: 40%;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  border-radius: 2px;
+  padding: 13px;
+  border: 1px solid #dda4b0;
+  cursor: pointer;
+  background-color: #dda4b0;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.ContactContent form button[type="submit"]:hover {
+  background-color: white;
+  color: #dda4b0;
+}

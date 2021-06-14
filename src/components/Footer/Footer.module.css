@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.Footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  max-width: 1450px;
+}
+.articles {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10% 2%;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.WorkingHours ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+.WorkingHours ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.WorkingHours ul li span {
+  color: rgba(255, 7, 7, 0.7);
+  letter-spacing: 1.2px;
+}
+.Footer article {
+  width: 90%;
+  height: 250px;
+  min-width: 200px;
+  margin: 0 5px;
+  text-align: justify;
+}
+
+h5 {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+.socialIcons {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+}
+.socialIcons button {
+  color: white;
+  border: none;
+  background-color: rgba(255, 82, 82, 0.2);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.endTitle {
+  text-align: center;
+  font-size: 0.55rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+.Newsletter input {
+  padding: 10px 5px;
+  background-color: rgba(255, 82, 82, 0.2);
+  border: none;
+  width: 90%;
+  margin: 15px 0;
+  text-align: center;
+  letter-spacing: 1.2px;
+  border-radius: 2px;
+  color: grey;
+}
+.Newsletter button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 50%;
+  background-color: rgb(253, 246, 185);
+  transition: 0.4s ease-out;
+}
+
+.Newsletter button:active {
+  transform: scale(0.85);
+}
+.Newsletter input:focus {
+  outline: none;
+}
+.Instagram {
+  overflow: hidden;
+}
+.Instagram div {
+  height: 150px;
+  width: 300px;
+}
+
+.Instagram div img {
+  height: 100%;
+}
+@media only screen and (min-width: 550px) {
+  .Footer article {
+    width: 40%;
+  }
+  .articles {
+    padding: 8% 2%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .Footer article {
+    width: 35%;
+  }
+  .articles {
+    padding: 4% 1%;
+  }
+  .endTitle {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .Footer article {
+    width: 22%;
+  }
+}

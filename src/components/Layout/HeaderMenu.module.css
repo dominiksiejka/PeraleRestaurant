@@ -1,0 +1,41 @@
+.MainMenu {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.1rem;
+  max-width: 700px;
+}
+.MainMenu li {
+  cursor: pointer;
+  position: relative;
+  padding: 0 1px;
+  margin: 0 2px;
+}
+
+.MainMenu li::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: red;
+  opacity: 0;
+  width: 0;
+  height: 3px;
+  margin-top: 2px;
+  border-radius: 10px;
+  transition: width 0.4s ease-out, opacity 0.2s ease-out;
+}
+.MainMenu li:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+.MainMenu li span {
+  color: blue;
+}
+.MainMenu li a {
+  text-decoration: none;
+  color: inherit;
+}
+.MainMenu a.Active {
+  color: red;
+}
