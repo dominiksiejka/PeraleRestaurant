@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/PeraleRestaurant/static/css/main.ddfb73f5.chunk.css",
+    "main.js": "/PeraleRestaurant/static/js/main.3a9b96b0.chunk.js",
+    "main.js.map": "/PeraleRestaurant/static/js/main.3a9b96b0.chunk.js.map",
+    "runtime-main.js": "/PeraleRestaurant/static/js/runtime-main.e887f746.js",
+    "runtime-main.js.map": "/PeraleRestaurant/static/js/runtime-main.e887f746.js.map",
+    "static/js/2.e4b37579.chunk.js": "/PeraleRestaurant/static/js/2.e4b37579.chunk.js",
+    "static/js/2.e4b37579.chunk.js.map": "/PeraleRestaurant/static/js/2.e4b37579.chunk.js.map",
+    "index.html": "/PeraleRestaurant/index.html",
+    "static/css/main.ddfb73f5.chunk.css.map": "/PeraleRestaurant/static/css/main.ddfb73f5.chunk.css.map",
+    "static/js/2.e4b37579.chunk.js.LICENSE.txt": "/PeraleRestaurant/static/js/2.e4b37579.chunk.js.LICENSE.txt",
+    "static/media/about.2a888a46.jpg": "/PeraleRestaurant/static/media/about.2a888a46.jpg",
+    "static/media/chief1.c5130b0f.jpg": "/PeraleRestaurant/static/media/chief1.c5130b0f.jpg",
+    "static/media/chief2.47ee738e.jpg": "/PeraleRestaurant/static/media/chief2.47ee738e.jpg",
+    "static/media/chief3.b7ad6dd8.jpg": "/PeraleRestaurant/static/media/chief3.b7ad6dd8.jpg",
+    "static/media/chiefHome.617377b8.jpg": "/PeraleRestaurant/static/media/chiefHome.617377b8.jpg",
+    "static/media/ContactPage.module.css": "/PeraleRestaurant/static/media/contact.095c18b8.jpg",
+    "static/media/customers.872a1f2e.png": "/PeraleRestaurant/static/media/customers.872a1f2e.png",
+    "static/media/homePage.0f02e1f2.jpg": "/PeraleRestaurant/static/media/homePage.0f02e1f2.jpg",
+    "static/media/insta.ce236a13.jpg": "/PeraleRestaurant/static/media/insta.ce236a13.jpg",
+    "static/media/insta2.f15c757b.jpg": "/PeraleRestaurant/static/media/insta2.f15c757b.jpg",
+    "static/media/meals.88537d9d.jpg": "/PeraleRestaurant/static/media/meals.88537d9d.jpg",
+    "static/media/shop.de5d3d12.jpg": "/PeraleRestaurant/static/media/shop.de5d3d12.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e887f746.js",
+    "static/js/2.e4b37579.chunk.js",
+    "static/css/main.ddfb73f5.chunk.css",
+    "static/js/main.3a9b96b0.chunk.js"
+  ]
+}
