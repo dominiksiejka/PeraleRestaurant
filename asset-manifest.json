@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PeraleRestaurant/static/css/main.ddfb73f5.chunk.css",
-    "main.js": "/PeraleRestaurant/static/js/main.3a9b96b0.chunk.js",
-    "main.js.map": "/PeraleRestaurant/static/js/main.3a9b96b0.chunk.js.map",
+    "main.js": "/PeraleRestaurant/static/js/main.2059d70a.chunk.js",
+    "main.js.map": "/PeraleRestaurant/static/js/main.2059d70a.chunk.js.map",
     "runtime-main.js": "/PeraleRestaurant/static/js/runtime-main.e887f746.js",
     "runtime-main.js.map": "/PeraleRestaurant/static/js/runtime-main.e887f746.js.map",
     "static/js/2.e4b37579.chunk.js": "/PeraleRestaurant/static/js/2.e4b37579.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.e887f746.js",
     "static/js/2.e4b37579.chunk.js",
     "static/css/main.ddfb73f5.chunk.css",
-    "static/js/main.3a9b96b0.chunk.js"
+    "static/js/main.2059d70a.chunk.js"
   ]
 }
