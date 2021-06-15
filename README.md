@@ -4,7 +4,7 @@
 
 [**click live demo of the project**](https://dominiksiejka.github.io/PeraleRestaurant)
 
-![PeraleRestaurant preview](./src/assets/youtube.jpg)
+![PeraleRestaurant preview](./src/assets/perale.jpg)
 
 ## Table of Contents
 
@@ -17,12 +17,11 @@
 
 ## Description
 
-YouTubeApp allows you to search and watch videos from YouTube. It uses one of Google APIs to fetch data.
-This app displayes result of 5 matching queries, just pick one and watch.
+PeraleRestaurant website. Order high quality-food remote from home with delivery. Get to know our delicious dishes and skilled staff. Passionate about cooking.
 
 ## How to use
 
-There is a search bar at the top of the YouTubeApp. By default the search is set to look for query 'sia'. Type anything you want to watch in the text input. Then after a second or so, the list of 5 matched items will display to the user. Choose the video you want to watch.
+Explore the PeraleRestaurant.
 
 ## Built with
 
