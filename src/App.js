@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename='/PeraleRestaurant'>
       <ScrollTopFix />
       <CartProvider>
         {cartIsShown && <Cart onClose={hideCartHandler} />}
